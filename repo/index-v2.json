@@ -1,0 +1,83 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Tab Cast"
+    },
+    "description": {
+      "en-US": "Private repository for Tab Cast TV (the browser on the TV). Signed APKs only."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/tab-cast.png",
+        "sha256": "eecec5e68b2a574e3f90c721994fc5ba45269df220cec0a5b535ec6116fb1d9f",
+        "size": 10991
+      }
+    },
+    "address": "https://pennico.github.io/tab-cast-fdroid/repo",
+    "timestamp": 1794754789000,
+    "categories": {
+      "Multimedia": {
+        "name": {
+          "en-US": "Multimedia"
+        }
+      }
+    }
+  },
+  "packages": {
+    "dk.pennico.tabcast.tv": {
+      "metadata": {
+        "added": 1794754786000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794754786000,
+        "license": "Other",
+        "authorName": "pennico",
+        "name": {
+          "en-US": "Tab Cast TV"
+        },
+        "summary": {
+          "en-US": "The browser on the TV that Tab Cast controls"
+        },
+        "description": {
+          "en-US": "A browser for Android TV that plays a web page's video full screen,\ncontrolled from the Tab Cast tablet app or a web remote.\n\nPrivate build; this repository holds only the signed APKs."
+        },
+        "preferredSigner": "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37"
+      },
+      "versions": {
+        "fc8a8aae59d063a2db76d82f8b79094d6a67582fcbf2c508f1d68edcc52245ed": {
+          "added": 1794754786000,
+          "file": {
+            "name": "/dk.pennico.tabcast.tv_7.apk",
+            "sha256": "fc8a8aae59d063a2db76d82f8b79094d6a67582fcbf2c508f1d68edcc52245ed",
+            "size": 5811453
+          },
+          "manifest": {
+            "versionName": "0.3.3",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "dk.pennico.tabcast.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+Categories:
+  - Multimedia
+License: Other
+AuthorName: pennico
+Name: Tab Cast TV
+Summary: The browser on the TV that Tab Cast controls
+Description: |-
+  A browser for Android TV that plays a web page's video full screen,
+  controlled from the Tab Cast tablet app or a web remote.
+
+  Private build; this repository holds only the signed APKs.
+AutoUpdateMode: None
+UpdateCheckMode: None

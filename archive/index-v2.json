@@ -1,0 +1,20 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Tab Cast archive"
+    },
+    "description": {
+      "en-US": "Older Tab Cast versions."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/tab-cast.png",
+        "sha256": "eecec5e68b2a574e3f90c721994fc5ba45269df220cec0a5b535ec6116fb1d9f",
+        "size": 10991
+      }
+    },
+    "address": "https://pennico.github.io/tab-cast-fdroid/archive",
+    "timestamp": 1794754786000
+  },
+  "packages": {}
+}
