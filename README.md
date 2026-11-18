@@ -1,10 +1,10 @@
-# Tab Cast — F-Droid repository
+# Tab Cast — update site
 
-Private F-Droid repository for the Tab Cast apps (tablet + TV). It holds only the signed APKs and the
-F-Droid index; the source code is not published here.
+Private update site for Tab Cast TV. It holds no source code.
 
-Add this repository in the F-Droid client:
+- `repo/`: an F-Droid repository with the signed **Tab Cast TV** APKs and the signed index. Tab Cast TV updates
+  itself from it (and any F-Droid client can read it):
 
-    https://pennico.github.io/tab-cast-fdroid/repo
+      https://pennico.github.io/tab-cast-fdroid/repo
 
-(Check the repository fingerprint shown in the F-Droid client against the one you were given.)
+  Check the repository fingerprint against the one you were given.

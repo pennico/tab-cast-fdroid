@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pennico.github.io/tab-cast-fdroid/repo",
-    "timestamp": 1795022877000,
+    "timestamp": 1795032518000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1795022873000,
+        "lastUpdated": 1795032502000,
         "license": "Other",
         "authorName": "pennico",
         "name": {
@@ -45,6 +45,44 @@
         "preferredSigner": "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37"
       },
       "versions": {
+        "961905cb9dde300478a36b6816ae1a2f96fc041b38d8f7d3d4476b3a83e3012d": {
+          "added": 1795032502000,
+          "file": {
+            "name": "/dk.pennico.tabcast.tv_10.apk",
+            "sha256": "961905cb9dde300478a36b6816ae1a2f96fc041b38d8f7d3d4476b3a83e3012d",
+            "size": 5869765
+          },
+          "manifest": {
+            "versionName": "0.5.1",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "dk.pennico.tabcast.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "fafb1950573a148ae5c26f4913b99f2758db9674162be1d610ae1037adcfeadf": {
           "added": 1795022873000,
           "file": {
@@ -87,38 +125,6 @@
           "manifest": {
             "versionName": "0.4.0",
             "versionCode": 8,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "dk.pennico.tabcast.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "fc8a8aae59d063a2db76d82f8b79094d6a67582fcbf2c508f1d68edcc52245ed": {
-          "added": 1794754786000,
-          "file": {
-            "name": "/dk.pennico.tabcast.tv_7.apk",
-            "sha256": "fc8a8aae59d063a2db76d82f8b79094d6a67582fcbf2c508f1d68edcc52245ed",
-            "size": 5811453
-          },
-          "manifest": {
-            "versionName": "0.3.3",
-            "versionCode": 7,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34
