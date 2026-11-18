@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1794754789000,
+    "timestamp": 1795020887000,
     "version": 20002,
     "name": "Tab Cast",
     "icon": "tab-cast.png",
@@ -17,18 +17,46 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "7",
+      "suggestedVersionCode": "8",
       "description": "A browser for Android TV that plays a web page's video full screen,\ncontrolled from the Tab Cast tablet app or a web remote.\n\nPrivate build; this repository holds only the signed APKs.",
       "license": "Other",
       "name": "Tab Cast TV",
       "summary": "The browser on the TV that Tab Cast controls",
       "added": 1794754786000,
       "packageName": "dk.pennico.tabcast.tv",
-      "lastUpdated": 1794754786000
+      "lastUpdated": 1795020882000
     }
   ],
   "packages": {
     "dk.pennico.tabcast.tv": [
+      {
+        "added": 1795020882000,
+        "apkName": "dk.pennico.tabcast.tv_8.apk",
+        "hash": "0d1e31304dd1b71c7b27cab14dea0f73d239dfc3197ca52fad3a149fc134b8ef",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "dk.pennico.tabcast.tv",
+        "sig": "6f8688e90023b803c02882581a49a23d",
+        "signer": "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37",
+        "size": 5839321,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "dk.pennico.tabcast.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 8,
+        "versionName": "0.4.0"
+      },
       {
         "added": 1794754786000,
         "apkName": "dk.pennico.tabcast.tv_7.apk",
