@@ -1,0 +1,1 @@
+Shows why mirroring stopped when the tablet's video chip is busy. Also the first update installed by Tab Cast TV itself.
