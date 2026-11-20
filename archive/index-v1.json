@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1795115703000,
+    "timestamp": 1795196270000,
     "version": 20002,
     "name": "Tab Cast archive",
     "icon": "tab-cast.png",
@@ -17,18 +17,48 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "8",
-      "description": "A browser for Android TV that plays a web page's video full screen,\ncontrolled from the Tab Cast tablet app or a web remote.\n\nPrivate build; this repository holds only the signed APKs.",
-      "license": "Other",
+      "suggestedVersionCode": "9",
+      "description": "A browser for Android TV that plays a web page's video full screen,\ncontrolled from the Tab Cast tablet app or a web remote.\n\nFree software (GPL-3.0-or-later). Source code: https://github.com/pennico/tab-cast",
+      "issueTracker": "https://github.com/pennico/tab-cast/issues",
+      "license": "GPL-3.0-or-later",
       "name": "Tab Cast TV",
+      "sourceCode": "https://github.com/pennico/tab-cast",
       "summary": "The browser on the TV that Tab Cast controls",
       "added": 1794754786000,
       "packageName": "dk.pennico.tabcast.tv",
-      "lastUpdated": 1795115702000
+      "lastUpdated": 1795196269000
     }
   ],
   "packages": {
     "dk.pennico.tabcast.tv": [
+      {
+        "added": 1795022873000,
+        "apkName": "dk.pennico.tabcast.tv_9.apk",
+        "hash": "fafb1950573a148ae5c26f4913b99f2758db9674162be1d610ae1037adcfeadf",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "dk.pennico.tabcast.tv",
+        "sig": "6f8688e90023b803c02882581a49a23d",
+        "signer": "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37",
+        "size": 5850325,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "dk.pennico.tabcast.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 9,
+        "versionName": "0.5.0"
+      },
       {
         "added": 1795020882000,
         "apkName": "dk.pennico.tabcast.tv_8.apk",
