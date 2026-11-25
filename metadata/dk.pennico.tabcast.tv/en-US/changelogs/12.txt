@@ -1,0 +1,1 @@
+Tab Cast is open source now (GPL-3.0). Peter Lowe's ad list is downloaded on Wi-Fi instead of shipped in the app.

@@ -1,0 +1,15 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: pennico
+SourceCode: https://github.com/pennico/tab-cast
+IssueTracker: https://github.com/pennico/tab-cast/issues
+Name: Tab Cast TV
+Summary: The browser on the TV that Tab Cast controls
+Description: |-
+  A browser for Android TV that plays a web page's video full screen,
+  controlled from the Tab Cast tablet app or a web remote.
+
+  Free software (GPL-3.0-or-later). Source code: https://github.com/pennico/tab-cast
+AutoUpdateMode: None
+UpdateCheckMode: None
