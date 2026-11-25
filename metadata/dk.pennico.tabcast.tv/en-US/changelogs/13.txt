@@ -1,0 +1,1 @@
+Subtitles: DVD subtitles inside films now show, and a subtitle track the TV can't play no longer stops the film. More subtitle file formats from the tablet. Mirror screen keeps going after the tablet's video encoder stops.
