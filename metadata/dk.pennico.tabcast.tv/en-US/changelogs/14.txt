@@ -1,0 +1,1 @@
+Preview for Tab Cast for Mac: the TV can now show a Mac's screen and sound in full HD (HEVC or H.264, decoded by the TV's own video chip). Nothing changes for the tablet.
