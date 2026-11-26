@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1795649784000,
+    "timestamp": 1795684050000,
     "version": 20002,
     "name": "Tab Cast",
     "icon": "tab-cast.png",
@@ -12,6 +12,27 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "authorName": "pennico",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "16",
+      "description": "An Android tablet app that finds the video on any web page and casts it to\nTab Cast TV, an FCast receiver or a Chromecast, without Google Play Services.\nIt also casts files from the tablet and mirrors the tablet's screen.\n\nFree software (GPL-3.0-or-later). Source code: https://github.com/pennico/tab-cast",
+      "issueTracker": "https://github.com/pennico/tab-cast/issues",
+      "license": "GPL-3.0-or-later",
+      "name": "Tab Cast",
+      "sourceCode": "https://github.com/pennico/tab-cast",
+      "summary": "Casts the video of any web page from the tablet to the TV",
+      "added": 1795684047000,
+      "packageName": "dk.pennico.tabcast",
+      "lastUpdated": 1795684047000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Tab Cast now updates itself: Settings \u203a Updates, or the notification when a new version is out. No cable needed any more.\n"
+        }
+      }
+    },
     {
       "authorName": "pennico",
       "categories": [
@@ -35,6 +56,99 @@
     }
   ],
   "packages": {
+    "dk.pennico.tabcast": [
+      {
+        "added": 1795684047000,
+        "apkName": "dk.pennico.tabcast_16.apk",
+        "hash": "51b96dcb2475ae5fe4b81dfb9859ab8121d7b774e44b3d817002f24cc4eeab40",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "dk.pennico.tabcast",
+        "sig": "6f8688e90023b803c02882581a49a23d",
+        "signer": "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37",
+        "size": 25038749,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "dk.pennico.tabcast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 16,
+        "versionName": "0.5.4.1"
+      }
+    ],
     "dk.pennico.tabcast.tv": [
       {
         "added": 1795649781000,

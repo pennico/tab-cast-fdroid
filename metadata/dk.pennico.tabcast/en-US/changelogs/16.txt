@@ -1,0 +1,1 @@
+Tab Cast now updates itself: Settings › Updates, or the notification when a new version is out. No cable needed any more.

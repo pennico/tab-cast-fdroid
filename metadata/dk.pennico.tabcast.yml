@@ -1,0 +1,16 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: pennico
+SourceCode: https://github.com/pennico/tab-cast
+IssueTracker: https://github.com/pennico/tab-cast/issues
+Name: Tab Cast
+Summary: Casts the video of any web page from the tablet to the TV
+Description: |-
+  An Android tablet app that finds the video on any web page and casts it to
+  Tab Cast TV, an FCast receiver or a Chromecast, without Google Play Services.
+  It also casts files from the tablet and mirrors the tablet's screen.
+
+  Free software (GPL-3.0-or-later). Source code: https://github.com/pennico/tab-cast
+AutoUpdateMode: None
+UpdateCheckMode: None

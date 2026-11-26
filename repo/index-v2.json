@@ -14,7 +14,7 @@
       }
     },
     "address": "https://pennico.github.io/tab-cast-fdroid/repo",
-    "timestamp": 1795649784000,
+    "timestamp": 1795684050000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -24,6 +24,112 @@
     }
   },
   "packages": {
+    "dk.pennico.tabcast": {
+      "metadata": {
+        "added": 1795684047000,
+        "categories": [
+          "Multimedia"
+        ],
+        "issueTracker": "https://github.com/pennico/tab-cast/issues",
+        "lastUpdated": 1795684047000,
+        "license": "GPL-3.0-or-later",
+        "sourceCode": "https://github.com/pennico/tab-cast",
+        "authorName": "pennico",
+        "name": {
+          "en-US": "Tab Cast"
+        },
+        "summary": {
+          "en-US": "Casts the video of any web page from the tablet to the TV"
+        },
+        "description": {
+          "en-US": "An Android tablet app that finds the video on any web page and casts it to\nTab Cast TV, an FCast receiver or a Chromecast, without Google Play Services.\nIt also casts files from the tablet and mirrors the tablet's screen.\n\nFree software (GPL-3.0-or-later). Source code: https://github.com/pennico/tab-cast"
+        },
+        "preferredSigner": "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37"
+      },
+      "versions": {
+        "51b96dcb2475ae5fe4b81dfb9859ab8121d7b774e44b3d817002f24cc4eeab40": {
+          "added": 1795684047000,
+          "file": {
+            "name": "/dk.pennico.tabcast_16.apk",
+            "sha256": "51b96dcb2475ae5fe4b81dfb9859ab8121d7b774e44b3d817002f24cc4eeab40",
+            "size": 25038749
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "0.5.4.1",
+            "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "dk.pennico.tabcast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "dk.pennico.tabcast.tv": {
       "metadata": {
         "added": 1795635437000,
