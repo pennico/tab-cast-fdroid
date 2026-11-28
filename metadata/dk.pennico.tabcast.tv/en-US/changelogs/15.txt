@@ -1,0 +1,1 @@
+Preview: the sound of a mirrored screen (tablet or Mac) and its picture now come out about 0.1 s sooner. The start screen always has a Check for updates button, and so does the browser remote.

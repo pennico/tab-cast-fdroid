@@ -1,0 +1,1 @@
+Check for updates is now in the main menu, and the TV remote can check the TV for updates too.

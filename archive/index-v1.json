@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1795689867000,
+    "timestamp": 1795824087000,
     "version": 20002,
     "name": "Tab Cast archive",
     "icon": "tab-cast.png",
@@ -11,6 +11,62 @@
     "install": [],
     "uninstall": []
   },
-  "apps": [],
-  "packages": {}
+  "apps": [
+    {
+      "authorName": "pennico",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "12",
+      "description": "A browser for Android TV that plays a web page's video full screen,\ncontrolled from the Tab Cast tablet app or a web remote.\n\nFree software (GPL-3.0-or-later). Source code: https://github.com/pennico/tab-cast",
+      "issueTracker": "https://github.com/pennico/tab-cast/issues",
+      "license": "GPL-3.0-or-later",
+      "name": "Tab Cast TV",
+      "sourceCode": "https://github.com/pennico/tab-cast",
+      "summary": "The browser on the TV that Tab Cast controls",
+      "added": 1795635437000,
+      "packageName": "dk.pennico.tabcast.tv",
+      "lastUpdated": 1795824085000
+    }
+  ],
+  "packages": {
+    "dk.pennico.tabcast.tv": [
+      {
+        "added": 1795635437000,
+        "apkName": "dk.pennico.tabcast.tv_12.apk",
+        "hash": "bef0f58bb658682dc6cefff550bc7bd7a66c09b90e826760af061029b72faf74",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "dk.pennico.tabcast.tv",
+        "sig": "6f8688e90023b803c02882581a49a23d",
+        "signer": "4ea83c17dc2043038ead0b9750b06ca9691185588ee93d89b6dcbe95f1076d37",
+        "size": 5846731,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+            null
+          ],
+          [
+            "dk.pennico.tabcast.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 12,
+        "versionName": "0.5.3"
+      }
+    ]
+  }
 }
